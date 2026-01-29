@@ -24,8 +24,15 @@ if "@" in EmailID and "." in EmailID:
          #print("EmailID must not start with @")
         b=0
 
-    elif (" " in EmailID or "#" in EmailID or "$" in EmailID or "%" in EmailID or
-          "&" in EmailID or "!" in EmailID or "*" in EmailID):
+    elif (" " in EmailID or
+          "!" in EmailID or "#" in EmailID or "$" in EmailID or "%" in EmailID or
+          "&" in EmailID or "*" in EmailID or "(" in EmailID or ")" in EmailID or
+          "+" in EmailID or "=" in EmailID or "{" in EmailID or "}" in EmailID or
+          "[" in EmailID or "]" in EmailID or "|" in EmailID or "\\" in EmailID or
+          ":" in EmailID or ";" in EmailID or "'" in EmailID or "\"" in EmailID or
+          "<" in EmailID or ">" in EmailID or "?" in EmailID or "/" in EmailID or
+          "," in EmailID or "~" in EmailID or "`" in EmailID or "^" in EmailID or
+          "_" in EmailID):
        # print("Invalid, EmailID must not contain special characters")
         b=0
     else:
