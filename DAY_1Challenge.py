@@ -1,4 +1,4 @@
-#I used this for checking valid or not 1==true and 0==false
+#I used this for checking valid or not 1==true and 0==false.
 
 a=0
 b=0
