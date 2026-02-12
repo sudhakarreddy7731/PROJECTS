@@ -31,7 +31,8 @@ for item in data:
     elif item != "":
         strings.append(item)
         Strcount = Strcount + 1
-
+print("Numbers List : ", numbers)
+print("Strings List: ", strings)
 
 
 name = input("Enter your name: ")
