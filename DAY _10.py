@@ -3,7 +3,7 @@ import copy
 import math
 import numpy as np
 import pandas as pd
-def generate_data(n=15):
+def generate_data(n):
     data = []
     for i in range(n):
         data.append({
@@ -40,8 +40,9 @@ def manual_corr(x, y):
     return np.sum((x-mx)*(y-my)) / np.sqrt(np.sum((x-mx)**2) * np.sum((y-my)**2))
 
 
-data = generate_data()
 
+n=int(input("enter no of rows")
+data = generate_data(n)
 # Step 2
 roll_number =24110012124
 data = personalize(data, roll_number)
