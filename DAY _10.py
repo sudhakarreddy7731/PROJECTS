@@ -116,3 +116,6 @@ elif stability > 1:
     print("\nDecision: High Corruption Risk")
 else:
     print("\nDecision: Critical Failure")
+ 
+print("Why shallow copy corrupts nested structures?\n")
+print("Shallow copy copies only the outer structure, while inner objects are shared, so modifying nested data affects the original, causing unintended corruption.")   
